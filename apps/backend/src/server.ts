@@ -13,16 +13,16 @@ let nextId = 3;
 let tasks: Task[] = [
   {
     id: 1,
-    title: 'Estudiar arquitectura de software',
-    course: 'Arquitectura de Software',
+    title: 'Incidencia en la Avenida Principal',
+    course: 'Zona 1',
     priority: 'Alta',
     completed: false,
     createdAt: new Date().toISOString()
   },
   {
     id: 2,
-    title: 'Preparar exposición de monorepo',
-    course: 'Ingeniería de Sistemas',
+    title: 'Incidencia en la Calle Secundaria',
+    course: 'Zona 2',
     priority: 'Media',
     completed: false,
     createdAt: new Date().toISOString()

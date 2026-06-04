@@ -64,8 +64,8 @@ function App() {
   return (
     <main className="container">
       <section className="hero">
-        <h1>TaskFlow University</h1>
-        <p>Sistema básico para gestionar tareas académicas usando monorepo.</p>
+        <h1>Gestion de Incidencias de transito</h1>
+        <p>Sistema básico para gestionar flujo de incidencias de tráfico</p>
       </section>
 
       <section className="panel">
@@ -80,7 +80,7 @@ function App() {
 
           <input
             type="text"
-            placeholder="Curso"
+            placeholder="Zona"
             value={form.course}
             onChange={(event) => setForm({ ...form, course: event.target.value })}
           />
@@ -114,7 +114,7 @@ function App() {
             <article key={task.id} className={`task-card ${task.completed ? 'completed' : ''}`}>
               <div>
                 <h3>{task.title}</h3>
-                <p>Curso: {task.course}</p>
+                <p>Zona: {task.course}</p>
                 <p>Prioridad: {task.priority}</p>
                 <p>Estado: {task.completed ? 'Completada' : 'Pendiente'}</p>
               </div>
